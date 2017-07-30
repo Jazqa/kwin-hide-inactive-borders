@@ -3,7 +3,7 @@ workspace.clientAdded.connect(addClient);
 function init() {
   var clients = workspace.clientList();
   for (var i = 0; i < clients.length; i++) {
-      addClient(clients[1]);
+      addClient(clients[i]);
   }
 }
 
